@@ -34,6 +34,7 @@ public class Client {
         BufferedReader in=new BufferedReader(isr);
         String respose=in.readLine();
         System.out.println(respose);
+        System.out.println("Client's Sockets Are Closed");
         socket.close();
     }
 }
