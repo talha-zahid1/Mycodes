@@ -21,6 +21,7 @@ public class Server {
             }
        }
         out.println("Communication Ended Successfully");
+        System.out.println("Server's Sockets are closed");
         serverSocket.close();
         Clientsocket.close();
        
